@@ -10,37 +10,45 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Web-Studio-(Version-2.1)</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a class="logo" href="#"
-          ><span class="logo web">Web</span>
-          <span class="logo studio">Studio</span>
-        </a>
+      <div class="container">
+        <div class="flex-header">
+          <nav class="box-one">
+            <a class="logo" href="#"
+              ><span class="logo web">Web</span>
+              <span class="logo studio">Studio</span>
+            </a>
 
-        <ul class="navigation">
-          <li><a class="navigation-item" href="./index.html">Студія</a></li>
-          <li>
-            <a class="navigation-item" href="./porfolio.html">Портфоліо</a>
-          </li>
-          <li><a class="navigation-item" href="#">Контакти</a></li>
-        </ul>
-      </nav>
-      <ul class="feedback">
-        <li>
-          <a class="feedback-item" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="feedback-item" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+            <ul class="navigation">
+              <li><a class="navigation-item" href="./index.html">Студія</a></li>
+              <li>
+                <a class="navigation-item" href="./porfolio.html">Портфоліо</a>
+              </li>
+              <li><a class="navigation-item" href="#">Контакти</a></li>
+            </ul>
+          </nav>
+          <ul class="box-two">
+            <li>
+              <a class="feedback-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="feedback-item" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <section>
@@ -166,34 +174,36 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="logo2" href="/">
-        <span class="logo2-web">Web</span>
-        <span class="logo2-studio">Studio</span></a
-      >
-      <address class="contact">
-        <ul class="contact-list">
-          <li>
-            <a
-              class="contact-map"
-              href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >м. Київ, пр-т Лесі Украінки, 26</a
-            >
-          </li>
-          <li>
-            <a class="contact-item" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contact-item" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+        <footer>
+      <div class="container">
+        <a class="logo2" href="/">
+          <span class="logo2-web">Web</span>
+          <span class="logo2-studio">Studio</span></a
+        >
+        <address class="contact">
+          <ul class="contact-list">
+            <li>
+              <a
+                class="contact-map"
+                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                >м. Київ, пр-т Лесі Украінки, 26</a
+              >
+            </li>
+            <li>
+              <a class="contact-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-item" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
