@@ -28,20 +28,24 @@
             </a>
 
             <ul class="navigation">
-              <li><a class="navigation-item" href="./index.html">Студія</a></li>
-              <li>
+              <li class="navigation-position">
+                <a class="navigation-item current" href="./index.html">Студія</a>
+              </li>
+              <li class="navigation-position">
                 <a class="navigation-item" href="./porfolio.html">Портфоліо</a>
               </li>
-              <li><a class="navigation-item" href="#">Контакти</a></li>
+              <li class="navigation-position">
+                <a class="navigation-item" href="#">Контакти</a>
+              </li>
             </ul>
           </nav>
           <ul class="box-two">
-            <li>
+            <li class="navigation-position">
               <a class="feedback-item" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="navigation-position">
               <a class="feedback-item" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
@@ -50,15 +54,19 @@
         </div>
       </div>
     </header>
-    <main class="container">
+    <main>
       <section class="primary-maintitle">
-        <h1 class="maintitle">Ефективні рішення для вашого бізнесу</h1>
-        <button class="maintitle-button" type="button">Замовити послугу</button>
+        <div class="container">
+           <h1 class="maintitle">Ефективні рішення для вашого бізнесу</h1>
+           <button class="maintitle-button" type="button">Замовити послугу</button>
+        </div>
+        
       </section>
 
       <section>
-        <h2 class="features visuallity-hidden">Наші особливості</h2>
-        <ul class="flex-features">
+        <div class="container">
+          <h2 class="features visuallity-hidden">Наші особливості</h2>
+         <ul class="flex-features">
           <li class="subfeatures">
             <h3 class="subfeatures-headline">Увага до деталей</h3>
             <p class="subfeatures-paragraf">
@@ -86,11 +94,14 @@
               завдань.
             </p>
           </li>
-        </ul>
+         </ul>
+        </div>
+        
       </section>
       <section>
-        <h2 class="heading-work">Чим ми займаємося</h2>
-        <ul class="heading-work-list">
+        <div class="container">
+          <h2 class="heading-work">Чим ми займаємося</h2>
+         <ul class="heading-work-list">
           <li class="list-item">
             <img src="./images/whatdowedo/box1.jpg" alt="кодінг" width="370" />
           </li>
@@ -100,10 +111,13 @@
           <li class="list-item">
             <img src="./images/whatdowedo/box3.jpg" alt="ігри" width="370" />
           </li>
-        </ul>
+         </ul>
+        </div>
+
       </section>
       <section class="team">
-        <h2 class="heading-team">Наша команда</h2>
+        <div class="container">
+          <h2 class="heading-team">Наша команда</h2>
         <div class="flex-team">
           <ul class="heading-list">
             <li class="list-item">

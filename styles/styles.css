@@ -56,7 +56,9 @@ body{
     --color-maintitle: #2F303A;
     --color-hoverfocusbutton: #188CE8;
     --color-grey: #F5F4FA;
+    --colorforborder: #EEEEEE;
 }
+
 /* header */
 /*logo*/
 
@@ -64,10 +66,13 @@ body{
     width: 1200px;
     padding: 0 15px;
 }
+header{
+    border-bottom: 1px solid var(--colorforborder);
+}
+
 .flex-header{
     display: flex;
     align-items: center;
-    flex-basis: 1170px;
 }
 .logo{
     display: inline-block;
@@ -96,12 +101,17 @@ body{
 }
 .navigation {
     display: flex;
-    gap: 50px;
     align-items: center;
 }
 
-.navigation-item {
+.navigation-position{
     display: inline-block;
+    margin-right: 50px;
+}
+.navigation-position:last-child{
+    margin-right: 0;
+}
+.navigation-item {
     padding: 32px 0 ;
     color: var(--color-title);
     font-weight: 500;
@@ -115,13 +125,13 @@ body{
 .navigation-item:focus {
     color: var(--color-hoverfocus);
 }
-
-
+.current{
+    color: var(--color-hoverfocus);
+}
 
 .box-two {
-    margin-left: 250px;
+    margin-left: 344px;
     display: flex;
-    gap: 50px;
 }
 
 .feedback-item {
@@ -356,7 +366,8 @@ footer{
 
 
 .porfolio-filter {
-
+    display: flex;
+    justify-content: center;
 }
 
 .porfolio-position {
@@ -376,11 +387,24 @@ footer{
     background-color: var(--color-hoverfocus);
     color: var(--color-forbackground);
 }
-.porfolio-list {}
+.porfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4px;
+    width: calc(1200px - 60px/3);
+}
 
-.porfolio-item {}
+.porfolio-box {
+    margin-top: 30px;
+    margin-right: 30px;
+    border-bottom: 1px solid var(--colorforborder);
+}
+.porfolio-box:nth-child(3n){
+    margin-right: 0;
+}
 
 .porfolio-item-headline {
+    margin-top: 20px;
     color: var(--color-title);
     font-weight: 700;
     font-size: 18px;
@@ -388,6 +412,7 @@ footer{
 }
 
 .porfolio-item-paragraf {
+    margin-top: 4px;
     color: var(--color-subtitle);
     font-size: 16px;
     line-height: 1.9;

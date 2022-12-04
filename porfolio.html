@@ -28,20 +28,26 @@
             </a>
 
             <ul class="navigation">
-              <li><a class="navigation-item" href="./index.html">Студія</a></li>
-              <li>
-                <a class="navigation-item" href="./porfolio.html">Портфоліо</a>
+              <li class="navigation-position">
+                <a class="navigation-item" href="./index.html">Студія</a>
               </li>
-              <li><a class="navigation-item" href="#">Контакти</a></li>
+              <li class="navigation-position">
+                <a class="navigation-item current" href="./porfolio.html"
+                  >Портфоліо</a
+                >
+              </li>
+              <li class="navigation-position">
+                <a class="navigation-item" href="#">Контакти</a>
+              </li>
             </ul>
           </nav>
           <ul class="box-two">
-            <li>
+            <li class="navigation-position">
               <a class="feedback-item" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="navigation-position">
               <a class="feedback-item" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
@@ -52,129 +58,135 @@
     </header>
     <main>
       <section>
-        <h1 class="porfolio visuallity-hidden">Портфоліо</h1>
-        <ul class="porfolio-filter">
-          <li><button class="porfolio-position" type="button">Усі</button></li>
-          <li>
-            <button class="porfolio-position" type="button">Веб-сайти</button>
-          </li>
-          <li>
-            <button class="porfolio-position" type="button">Додатки</button>
-          </li>
-          <li>
-            <button class="porfolio-position" type="button">Дизайн</button>
-          </li>
-          <li>
-            <button class="porfolio-position" type="button">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="porfolio-list">
-          <li>
-            <a class="porfolio-item" href="">
-              <img
-                src="./images/portfolio/webtech.jpg"
-                alt="Веб-сайт Технокряк"
-                width="370"
-              />
-              <h2 class="porfolio-item-headline">Технокряк</h2>
-              <p class="porfolio-item-paragraf">Веб-сайт</p>
-            </a>
-          </li>
+        <div class="container">
+          <h1 class="porfolio visuallity-hidden">Портфоліо</h1>
+          <ul class="porfolio-filter">
+            <li>
+              <button class="porfolio-position" type="button">Усі</button>
+            </li>
+            <li>
+              <button class="porfolio-position" type="button">Веб-сайти</button>
+            </li>
+            <li>
+              <button class="porfolio-position" type="button">Додатки</button>
+            </li>
+            <li>
+              <button class="porfolio-position" type="button">Дизайн</button>
+            </li>
+            <li>
+              <button class="porfolio-position" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="porfolio-list">
+            <li class="porfolio-box">
+              <a class="porfolio-item" href="">
+                <img
+                  src="./images/portfolio/webtech.jpg"
+                  alt="Веб-сайт Технокряк"
+                  width="370"
+                />
+                <h2 class="porfolio-item-headline">Технокряк</h2>
+                <p class="porfolio-item-paragraf">Веб-сайт</p>
+              </a>
+            </li>
 
-          <li>
-            <a class="porfolio-item" href="">
-              <img
-                src="./images/portfolio/designbasket.jpg"
-                alt="Дизайн Постер New Orlean vs Golden Star"
-                width="370"
-              />
-              <h2 class="porfolio-item-headline">
-                Постер New Orlean vs Golden Star
-              </h2>
-              <p class="porfolio-item-paragraf">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a class="porfolio-item" href="">
-              <img
-                src="./images/portfolio/apprestr.jpg"
-                alt="додаток Ресторан Seafood"
-                width="370"
-              />
-              <h2 class="porfolio-item-headline">Ресторан Seafood</h2>
-              <p class="porfolio-item-paragraf">Додаток</p>
-            </a>
-          </li>
-          <li>
-            <a class="porfolio-item" href="">
-              <img
-                src="./images/portfolio/marketingproject.jpg"
-                alt="маркетинг-проєкт Prime"
-                width="370"
-              />
-              <h2 class="porfolio-item-headline">Проєкт Prime</h2>
-              <p class="porfolio-item-paragraf">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a class="porfolio-item" href="">
-              <img
-                src="./images/portfolio/appboxes.jpg"
-                alt="Додаток проєкт Boxes"
-                width="370"
-              />
-              <h2 class="porfolio-item-headline">Проєкт Boxes</h2>
-              <p class="porfolio-item-paragraf">Додаток</p>
-            </a>
-          </li>
-          <li>
-            <a class="porfolio-item" href="">
-              <img
-                src="./images/portfolio/webnoborders.jpg"
-                alt="Веб-сайт Inspiration has no Borders"
-                width="370"
-              />
-              <h2 class="porfolio-item-headline">Inspiration has no Borders</h2>
-              <p class="porfolio-item-paragraf">Веб-сайт</p>
-            </a>
-          </li>
-          <li>
-            <a class="porfolio-item" href="">
-              <img
-                src="./images/portfolio/designlimitededition.jpg"
-                alt="Дизайн-видання Limited Edition"
-                width="370"
-              />
-              <h2 class="porfolio-item-headline">Видання Limited Edition</h2>
-              <p class="porfolio-item-paragraf">Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a class="porfolio-item" href="">
-              <img
-                src="./images/portfolio/marketinglab.jpg"
-                alt="Маркетинг-проєкт LAB"
-                width="370"
-              />
-              <h2 class="porfolio-item-headline">Проєкт LAB</h2>
-              <p class="porfolio-item-paragraf">Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a class="porfolio-item" href="">
-              <img
-                src="./images/portfolio/appgrowingbusiness.jpg"
-                alt="Додаток Growing Business"
-                width="370"
-              />
-              <h2 class="porfolio-item-headline">Growing Business</h2>
-              <p class="porfolio-item-paragraf">Додаток</p>
-            </a>
-          </li>
-        </ul>
+            <li class="porfolio-box">
+              <a class="porfolio-item" href="">
+                <img
+                  src="./images/portfolio/designbasket.jpg"
+                  alt="Дизайн Постер New Orlean vs Golden Star"
+                  width="370"
+                />
+                <h2 class="porfolio-item-headline">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="porfolio-item-paragraf">Дизайн</p>
+              </a>
+            </li>
+            <li class="porfolio-box">
+              <a class="porfolio-item" href="">
+                <img
+                  src="./images/portfolio/apprestr.jpg"
+                  alt="додаток Ресторан Seafood"
+                  width="370"
+                />
+                <h2 class="porfolio-item-headline">Ресторан Seafood</h2>
+                <p class="porfolio-item-paragraf">Додаток</p>
+              </a>
+            </li>
+            <li class="porfolio-box">
+              <a class="porfolio-item" href="">
+                <img
+                  src="./images/portfolio/marketingproject.jpg"
+                  alt="маркетинг-проєкт Prime"
+                  width="370"
+                />
+                <h2 class="porfolio-item-headline">Проєкт Prime</h2>
+                <p class="porfolio-item-paragraf">Маркетинг</p>
+              </a>
+            </li>
+            <li class="porfolio-box">
+              <a class="porfolio-item" href="">
+                <img
+                  src="./images/portfolio/appboxes.jpg"
+                  alt="Додаток проєкт Boxes"
+                  width="370"
+                />
+                <h2 class="porfolio-item-headline">Проєкт Boxes</h2>
+                <p class="porfolio-item-paragraf">Додаток</p>
+              </a>
+            </li>
+            <li class="porfolio-box">
+              <a class="porfolio-item" href="">
+                <img
+                  src="./images/portfolio/webnoborders.jpg"
+                  alt="Веб-сайт Inspiration has no Borders"
+                  width="370"
+                />
+                <h2 class="porfolio-item-headline">
+                  Inspiration has no Borders
+                </h2>
+                <p class="porfolio-item-paragraf">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="porfolio-box">
+              <a class="porfolio-item" href="">
+                <img
+                  src="./images/portfolio/designlimitededition.jpg"
+                  alt="Дизайн-видання Limited Edition"
+                  width="370"
+                />
+                <h2 class="porfolio-item-headline">Видання Limited Edition</h2>
+                <p class="porfolio-item-paragraf">Дизайн</p>
+              </a>
+            </li>
+            <li class="porfolio-box">
+              <a class="porfolio-item" href="">
+                <img
+                  src="./images/portfolio/marketinglab.jpg"
+                  alt="Маркетинг-проєкт LAB"
+                  width="370"
+                />
+                <h2 class="porfolio-item-headline">Проєкт LAB</h2>
+                <p class="porfolio-item-paragraf">Маркетинг</p>
+              </a>
+            </li>
+            <li class="porfolio-box">
+              <a class="porfolio-item" href="">
+                <img
+                  src="./images/portfolio/appgrowingbusiness.jpg"
+                  alt="Додаток Growing Business"
+                  width="370"
+                />
+                <h2 class="porfolio-item-headline">Growing Business</h2>
+                <p class="porfolio-item-paragraf">Додаток</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-        <footer>
+    <footer>
       <div class="container">
         <a class="logo2" href="/">
           <span class="logo2-web">Web</span>
