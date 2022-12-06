@@ -19,45 +19,43 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="flex-header">
-          <nav class="box-one">
-            <a class="logo" href="#"
-              ><span class="logo web">Web</span>
-              <span class="logo studio">Studio</span>
-            </a>
+      <div class="container flex-header">
+        <nav class="box-one">
+          <a class="logo" href="#"
+            ><span class="web">Web</span>
+            <span class="studio">Studio</span>
+          </a>
 
-            <ul class="navigation">
-              <li class="navigation-position">
-                <a class="navigation-item" href="./index.html">Студія</a>
-              </li>
-              <li class="navigation-position">
-                <a class="navigation-item current" href="./porfolio.html"
-                  >Портфоліо</a
-                >
-              </li>
-              <li class="navigation-position">
-                <a class="navigation-item" href="#">Контакти</a>
-              </li>
-            </ul>
-          </nav>
-          <ul class="box-two">
+          <ul class="navigation">
             <li class="navigation-position">
-              <a class="feedback-item" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
+              <a class="navigation-item" href="./index.html">Студія</a>
+            </li>
+            <li class="navigation-position">
+              <a class="navigation-item current" href="./porfolio.html"
+                >Портфоліо</a
               >
             </li>
             <li class="navigation-position">
-              <a class="feedback-item" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+              <a class="navigation-item" href="#">Контакти</a>
             </li>
           </ul>
-        </div>
+        </nav>
+        <ul class="box-two">
+          <li class="navigation-position">
+            <a class="feedback-item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="navigation-position">
+            <a class="feedback-item" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
-      <section>
+      <section class="section">
         <div class="container">
           <h1 class="porfolio visuallity-hidden">Портфоліо</h1>
           <ul class="porfolio-filter">
@@ -85,8 +83,10 @@
                   alt="Веб-сайт Технокряк"
                   width="370"
                 />
-                <h2 class="porfolio-item-headline">Технокряк</h2>
-                <p class="porfolio-item-paragraf">Веб-сайт</p>
+                <div class="porfolio-signature">
+                  <h2 class="porfolio-item-headline">Технокряк</h2>
+                  <p class="porfolio-item-paragraf">Веб-сайт</p>
+                </div>
               </a>
             </li>
 
@@ -97,10 +97,12 @@
                   alt="Дизайн Постер New Orlean vs Golden Star"
                   width="370"
                 />
-                <h2 class="porfolio-item-headline">
-                  Постер New Orlean vs Golden Star
-                </h2>
-                <p class="porfolio-item-paragraf">Дизайн</p>
+                <div class="porfolio-signature">
+                  <h2 class="porfolio-item-headline">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="porfolio-item-paragraf">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="porfolio-box">
@@ -110,8 +112,10 @@
                   alt="додаток Ресторан Seafood"
                   width="370"
                 />
-                <h2 class="porfolio-item-headline">Ресторан Seafood</h2>
-                <p class="porfolio-item-paragraf">Додаток</p>
+                <div class="porfolio-signature">
+                  <h2 class="porfolio-item-headline">Ресторан Seafood</h2>
+                  <p class="porfolio-item-paragraf">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="porfolio-box">
@@ -121,8 +125,10 @@
                   alt="маркетинг-проєкт Prime"
                   width="370"
                 />
-                <h2 class="porfolio-item-headline">Проєкт Prime</h2>
-                <p class="porfolio-item-paragraf">Маркетинг</p>
+                <div class="porfolio-signature">
+                  <h2 class="porfolio-item-headline">Проєкт Prime</h2>
+                  <p class="porfolio-item-paragraf">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="porfolio-box">
@@ -132,8 +138,10 @@
                   alt="Додаток проєкт Boxes"
                   width="370"
                 />
-                <h2 class="porfolio-item-headline">Проєкт Boxes</h2>
-                <p class="porfolio-item-paragraf">Додаток</p>
+                <div class="porfolio-signature">
+                  <h2 class="porfolio-item-headline">Проєкт Boxes</h2>
+                  <p class="porfolio-item-paragraf">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="porfolio-box">
@@ -143,10 +151,12 @@
                   alt="Веб-сайт Inspiration has no Borders"
                   width="370"
                 />
-                <h2 class="porfolio-item-headline">
-                  Inspiration has no Borders
-                </h2>
-                <p class="porfolio-item-paragraf">Веб-сайт</p>
+                <div class="porfolio-signature">
+                  <h2 class="porfolio-item-headline">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="porfolio-item-paragraf">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="porfolio-box">
@@ -156,8 +166,12 @@
                   alt="Дизайн-видання Limited Edition"
                   width="370"
                 />
-                <h2 class="porfolio-item-headline">Видання Limited Edition</h2>
-                <p class="porfolio-item-paragraf">Дизайн</p>
+                <div class="porfolio-signature">
+                  <h2 class="porfolio-item-headline">
+                    Видання Limited Edition
+                  </h2>
+                  <p class="porfolio-item-paragraf">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="porfolio-box">
@@ -167,8 +181,10 @@
                   alt="Маркетинг-проєкт LAB"
                   width="370"
                 />
-                <h2 class="porfolio-item-headline">Проєкт LAB</h2>
-                <p class="porfolio-item-paragraf">Маркетинг</p>
+                <div class="porfolio-signature">
+                  <h2 class="porfolio-item-headline">Проєкт LAB</h2>
+                  <p class="porfolio-item-paragraf">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="porfolio-box">
@@ -178,8 +194,10 @@
                   alt="Додаток Growing Business"
                   width="370"
                 />
-                <h2 class="porfolio-item-headline">Growing Business</h2>
-                <p class="porfolio-item-paragraf">Додаток</p>
+                <div class="porfolio-signature">
+                  <h2 class="porfolio-item-headline">Growing Business</h2>
+                  <p class="porfolio-item-paragraf">Додаток</p>
+                </div>
               </a>
             </li>
           </ul>

@@ -16,6 +16,7 @@ h5,
 h6{
     margin: 0;
 }
+
 img{
     display: block;
     max-width: 100%;
@@ -36,11 +37,8 @@ ul li {
     margin: 0;
 }
 /* for maket */
-section{
-    padding: 94px 94px;
-}
-header{
-    padding-left: 94px;
+.section{
+    padding: 94px 0px;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -65,6 +63,7 @@ body{
 .container{
     width: 1200px;
     padding: 0 15px;
+    margin: 0 auto;
 }
 header{
     border-bottom: 1px solid var(--colorforborder);
@@ -76,7 +75,7 @@ header{
 }
 .logo{
     display: inline-block;
-    padding: 15px 0;
+    padding: 24px 0;
     letter-spacing: 0.03em;
 }
 .box-one{
@@ -112,6 +111,7 @@ header{
     margin-right: 0;
 }
 .navigation-item {
+    display: block;
     padding: 32px 0 ;
     color: var(--color-title);
     font-weight: 500;
@@ -211,10 +211,10 @@ header{
 }
 .subfeatures {
     display: block;
+    max-width: 270px;
 }
 
 .subfeatures-headline {
-    display: inline-block;
     color: var(--color-title);
     font-weight: 700;
     font-size: 14px;
@@ -224,7 +224,6 @@ header{
 }
 
 .subfeatures-paragraf {
-    display: inline-block;
     margin-top: 10px;
     color: var(--color-subtitle);
     font-size: 14px;
@@ -232,8 +231,10 @@ header{
     letter-spacing: 0.03em;
 }
 /* чим займаємося */
+.section-whatwedo{
+    padding: 0px 0px 94px 0px;
+}
 .heading-work {
-
     color: var(--color-title);
     font-weight: 700;
     font-size: 36px;
@@ -298,7 +299,7 @@ header{
 /* fotter */
 footer{
     background: #2F303A;
-    padding: 94px 94px;
+    padding: 60px 0px;
 }
 .logo2 {
     display: inline-block;
@@ -368,6 +369,7 @@ footer{
 .porfolio-filter {
     display: flex;
     justify-content: center;
+    gap: 8px;
 }
 
 .porfolio-position {
@@ -378,6 +380,7 @@ footer{
     text-align: center;
     padding: 6px 22px;
     letter-spacing: 0.03em;
+    border-radius: 4px;
 }
 .porfolio-position:hover{
     background-color: var(--color-hoverfocus);
@@ -390,8 +393,8 @@ footer{
 .porfolio-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 4px;
-    width: calc(1200px - 60px/3);
+    margin-top: 30px;
+    margin-right: -30px;
 }
 
 .porfolio-box {
@@ -399,12 +402,10 @@ footer{
     margin-right: 30px;
     border-bottom: 1px solid var(--colorforborder);
 }
-.porfolio-box:nth-child(3n){
-    margin-right: 0;
+.porfolio-signature{
+    margin: 24px 20px;
 }
-
 .porfolio-item-headline {
-    margin-top: 20px;
     color: var(--color-title);
     font-weight: 700;
     font-size: 18px;
